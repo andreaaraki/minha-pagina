@@ -1,0 +1,169 @@
+body {
+	background: linear-gradient(#FFFFFF, #FFFFFF);
+	font-family: 'Montserrat', sans-serif;
+	}
+
+.caixa {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 3em;
+}
+
+.titulo {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.titulo-2 {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 1em;
+}
+
+.foto-perfil {
+	width: 30%;
+	border-radius: 50%;
+	margin: 0 20px 20px 20px;
+}
+
+.box-nome-contato {
+	width: 50%;
+	position: absolute;
+	padding-top: 5em;
+	right: 0px;
+	top: 0px;
+}
+
+ul a {
+	text-decoration: none;
+}
+
+.box-nome-contato a:hover {
+	color: red;
+}
+
+.box-nome-contato p {
+	margin-bottom: 1em;
+}
+
+.box-nome-contato li {
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+.imagem-contato {
+	height: 25px;
+	width: 25px;
+    vertical-align: middle;
+   	margin-right: 0.3em;
+}
+
+main {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.formacao, .resumo, .idiomas, .portfolio {
+	border: 0.5em solid #ffffff;
+	border-radius: 2em;
+	padding: 1em 1em;
+	background: #FFEEEE;
+}
+
+main p {
+	margin: 1em 0 1em;
+	line-height: 1.7em;
+	text-align: justify;
+    text-align-last: center;
+}
+
+table {
+	margin: 20px 0 40px;
+	text-align: left;
+}
+
+td {
+	padding: 5px 5px 0px;
+	vertical-align: middle;
+}
+
+.celula-flecha {
+	vertical-align: middle;
+}
+
+.imagem-tabela {
+	height: 25px;
+	width: 25px;
+}
+
+.flecha {
+	height: 100px;
+	width:  30%;
+	margin: 0 10px 0 20px
+}
+
+.gif {
+	height: 30%;
+	width: 30%;
+    vertical-align: middle;
+    margin: 0 1em 1em 1em;
+    display: inline-block;
+}
+
+.gif:hover {
+	height: 80%;
+	width: 80%;
+}
+
+img + p {
+	display: inline-block;
+}
+
+.portfolio-p {
+	font-style: italic;
+	text-align: left;
+
+}
+
+footer {
+	background: #bebebe;
+	padding: 40px 0;
+	text-align: center;
+	color:white;
+}
+
+footer a {
+	color:white
+}
+
+
+@media screen and (max-width: 480px) {
+	main, .caixa, .formacao, .resumo, .idiomas, .portfolio {
+		width:auto
+	}
+
+	.box-nome-contato {
+	padding-top: 0px;
+	width: 60%
+	}
+
+	.foto-perfil {
+	width: 45%;
+	border-radius: 50%;
+	margin: 0 0px 0.5em 5px;
+	}
+
+	.titulo {
+	font-size: 30px;
+	}
+	
+	.titulo-2 {
+	font-size: 20px;
+	}
+
+	.formacao tr {
+		height: 4em;
+	}
+}
